@@ -1,0 +1,351 @@
+
+
+
+
+
+
+
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+/* header section */
+
+  /* **********************
+  header section
+  ************************/
+
+  /* header .hb-inner {
+    padding: 13%;
+} */
+
+
+  .features-section .features-heading .cu-head, .Testimonial-section .t-header .cu-head, .Pricings-section .Pricings-heading .cu-head{
+    margin-left: 0%;
+    padding-bottom: 20px;
+    text-align:center ;
+   
+}
+
+
+.features-section .features-heading, .Testimonial-section .t-header, .Pricings-section .Pricings-heading{
+    
+    margin-left: 0px;
+    padding-bottom: 65px;
+    margin-top: 50px;
+}
+ 
+
+
+.Contact-us .Contact-us-heading {
+   
+    margin-right: 62px;
+    
+}
+
+.Pricings-section .Pricings-heading::after {
+    content: '';
+    left: 38%;
+}
+
+.details-section img {
+    width: 460px;
+}
+
+.Contact-us .Contact-box {
+    width: 100%;
+}
+
+.Contact-us .Contact-us-heading .cu-head {
+    margin-left: 7%;
+}
+
+.Contact-us .Contact-box form {
+    display: contents;
+    padding-top: 10px;
+}
+
+.form-control{
+    display: inline;
+}
+
+.Contact-us .Contact-box form .right {
+    margin-left: 0px;
+}
+
+.Contact-us .Contact-box form .right .cu-btns a {
+    padding: 10px 33px;
+}
+
+.features-section .features-heading::after {
+    content: '';
+    left: 37%;
+}
+
+.Contact-us .Contact-us-heading::after {
+    content: '';
+    right: 33%;
+}
+
+.Testimonial-section .t-header::after {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 3px;
+    background: #578bd1;
+    transition: 0.5s;
+    transform: scale(0.4, 1);
+    left: 35%;
+}
+
+
+    /* CSS end*/ 
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+
+
+
+  @media (min-width: 320px) and (max-width: 480px) {
+
+    
+     /* **********************
+  header section
+  ************************/
+
+  header .hb-inner h5 {
+    
+    margin-top: 0px;
+}
+
+header .hb-inner h1 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+header .hb-inner p {
+    color: #fff;
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 28px;
+}
+
+header .hb-btns .btn-primary {
+    margin-right: 5px;
+}
+
+header .hb-btns a {
+    padding: 10px 5px;
+    
+    
+}
+
+/* ******************features-section******************/
+
+
+
+**************************** */
+.features-section .features-heading .cu-head, .Testimonial-section .t-header .cu-head, .Pricings-section .Pricings-heading .cu-head{
+    margin-left: 0%;
+    padding-bottom: 20px;
+    text-align:center ;
+   
+}
+
+
+.features-section .features-heading, .Testimonial-section .t-header, .Pricings-section .Pricings-heading{
+    position: relative;
+    margin-left: 0px;
+    padding-bottom: 65px;
+    margin-top: 50px;
+}
+
+
+.features-section .features-heading h5{
+
+    margin-top: 100px;
+} 
+
+.features-section .features-heading .cu-head {
+    margin-left: 0px;
+
+}
+
+
+.features-section .features-heading::after {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 3px;
+    background: #578bd1;
+    transition: 0.5s;
+    transform: scale(0.4, 1);
+    left: 30%;
+}
+
+.features-section .features-heading:hover::after{
+   transform: scale(1, 1);
+   transition: 0.5s;  
+}
+
+.features-section .col-lg-3 {
+    padding: 0px 20px;
+}
+
+img, svg {
+    width: 300px;
+}
+
+.details-section .details-inner {
+    padding: 0px 10%;
+}
+
+
+.Testimonial-section .t-header .cu-head {
+    margin-left: 0px;
+    
+}
+
+.Testimonial-section .t-header::after {
+    content: '';
+    left: 25%;
+}
+
+.owl-carousel.owl-drag .owl-item {
+    padding-left: 31px;
+}
+
+.customize-section {
+    padding: 50px 10%;
+}
+
+/* *******.carousel section******** */
+.carousel-heading {
+    padding: 50px 4px;
+}
+
+.carousel-heading .ch-btns .btn-info {
+   
+    margin-right: 0px;
+}
+
+.carousel-heading .ch-btns a {
+    padding: 10px;
+}
+
+
+.Pricings-section .Pricings-heading .cu-head {
+    margin-left: 0%;
+}
+
+.Pricings-box .p-card .pc-btns a {
+    padding: 10px 4%;
+}
+
+.Pricings-box .p-card .pc-btns {
+    margin: 0 25%;
+}
+
+.Pricings-section .Pricings-heading::after {
+    content: '';
+    left: 32%;
+}
+
+.Contact-us .Contact-us-heading .cu-head {
+    margin-right: -43%;
+}
+
+.Contact-us .Contact-box {
+    width: 100%;
+}
+
+.Contact-us .Contact-us-heading {
+    margin-right: 40%;
+}
+
+.Contact-us .Contact-box form {
+    display: contents;
+    padding-top: 10px;
+}
+
+.form-control{
+    display: inline;
+}
+
+.Contact-us .Contact-box form .right {
+    margin-left: 0px;
+}
+
+.Contact-us .Contact-box form .right .cu-btns a {
+    padding: 10px 33px;
+}
+
+footer p {
+    margin-top: 16px;
+    font-size: 14px;
+   
+}
+
+/* ***********end************** */
+}
+
+
+
+
+
+
+ 
